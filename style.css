@@ -25,13 +25,16 @@ body {
   background-color: white;
   border: 1px solid #555;
   border-radius: 5px;
+  padding: 34px 0 50px;
 }
 .ex_container h1{
   text-align: center;
+  margin: 0;
 }
 h3{
   text-align: center;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  margin-right: 10px;
 }
 .btn {
   color: #fff;
@@ -46,10 +49,12 @@ h3{
 }
 
 .currency {
-  padding: 40px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* padding-bottom: 40px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+    width: 100%;
 }
 
 .currency select {
@@ -64,32 +69,53 @@ h3{
   background-position: right 10px top 50%, 0, 0;
   background-size: 12px auto, 100%;
   background-repeat: no-repeat;
+  margin-left: 10px;
+  border-radius: 5px;
 }
 .currency input {
   border: 0;
   background: transparent;
   font-size: 30px;
   text-align: right;
-  border: 1px solid #999;
+  border: 1px solid #dedede;
   border-radius: 5px;
+  width: 300px;
 }
 .swap-rate-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+.swap-rate-container img{
+  width: 30px;
+  margin: 24px 0;
+  cursor: pointer;
 }
 .rate {
   color: #e595a1;
   font-size: 24px;
   padding: 0 10px;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: 14px;
 }
 select:focus,
 input:focus,
 button:focus {
   outline: 0;
 }
-
+.sign{
+  text-align: center;
+  position: relative;
+  bottom: -86px;
+  color: white;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+.sign a{
+  color: white;
+}
 @media (max-width: 600px) {
   .currency input {
     width: 200px;
