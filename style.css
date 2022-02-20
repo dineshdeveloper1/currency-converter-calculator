@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  background : url('bg.jpg');
+  background : url('images/bg.jpg');
   background-position: center;
   background-size: cover;
   font-family: 'Quicksand', sans-serif;
@@ -118,6 +118,9 @@ button:focus {
 }
 @media (max-width: 600px) {
   .currency input {
-    width: 200px;
+    width: 180px;
+  }
+  .ex_container {
+    width: 94%;
   }
 }
